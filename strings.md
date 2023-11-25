@@ -234,3 +234,23 @@ print(string1.split(',')) # Output: ['Hello', ' Welcome to python programming']
 ```
 
 ### To learn string formatting --> f string, .format
+
+6. isdigit() -> if all the characters of the string is digit (0-9), it returns True else it returns False
+
+```python
+
+a = "123"
+print(a.isdigit()) # Output: True
+print("a123".isdigit()) # Output: False
+```
+
+7. capitalize() --> It converts the first most character to upper case
+8. title() -> It converts the first character of every word to capital
+
+```python
+
+a = "hello world"
+print(a.capitalize()) # Hello world
+print(a.title()) # Hello world
+
+```
